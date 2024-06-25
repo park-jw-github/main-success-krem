@@ -36,12 +36,7 @@ spec:
 #                secretKeyRef:
 #                  name: oauth-secret
 #                  key: KAKAO_OAUTH_CLIENT_SECRET
-            # JWT_KEY 추가
-            - name: JWT_SECRETKEY
-              valueFrom:
-                secretKeyRef:
-                  name: jwt-secret
-                  key: JWT_SECRETKEY
+            
             - name: HTTP_PROXY
               value: http://krmp-proxy.9rum.cc:3128
             - name: HTTPS_PROXY
