@@ -15,7 +15,7 @@ spec:
       containers:
         - name: frontend
           # 여러분의 frontend image 주소를 입력해주세요.
-          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_e1a6fcf498a2
+          image: krmp-d2hub-idock.9rum.cc/dev-test/repo_b87f26ce7c87
 #          env:
 #            # KAKAO_API_KEY 추가
 #            - name: KAKAO_API_KEY
